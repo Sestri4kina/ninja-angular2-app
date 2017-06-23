@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+    color: grey;
+}
+
+ul {
+    list-style: none;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    border-bottom: 1px solid #3f3f3f;
+    padding: 10px;
+}

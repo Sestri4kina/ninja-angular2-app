@@ -1,3 +1,7 @@
+body {
+    background-color: #f6f6f6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1 {
     color: grey;
     text-align: center;
@@ -30,4 +34,15 @@ nav li a {
 nav li a:hover {
     color: #7f7fff;
     font-weight: bold;
+}
+
+#main{
+  background: #e4e4e4;
+  padding: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 2px;
+  width: 100%;
+  max-width: 740px;
+  box-sizing: border-box;
+  margin: 0 auto
 }

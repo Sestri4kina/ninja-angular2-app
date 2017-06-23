@@ -6,17 +6,14 @@
   <nav>
     <ul>
       <li>
-        <h2><a target="_blank" href="#">Link1</a></h2>
+        <h2><a [routerLink]="['/']">Home</a></h2>
       </li>
       <li>
-        <h2><a target="_blank" href="#">Link2</a></h2>
-      </li>
-      <li>
-        <h2><a target="_blank" href="#">Link3</a></h2>
+        <h2><a [routerLink]="['directory']">Directory</a></h2>
       </li>
 </ul>
   </nav>
 </header>
 <section id="main">
-  <app-home>ng-content</app-home>
+  <router-outlet></router-outlet>
 </section>
